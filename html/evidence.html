@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Evidence</title>
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Depression and Anxiety Stigma, Shame, and Communication About Mental Health Among College Students: Implications for Communication with Students</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2018 - Carmack, Heather J</h6>
+                <p class="card-text">"Colleges and universities report an increase in the number of students who seek out counseling for mental health issues, such as depression and anxiety. Although more college students are seeking treatment, there continues to be stigma related to mental health issues."</p>
+                <a href="https://qq4nm4zz3u.search.serialssolutions.com/?ctx_ver=Z39.88-2004&ctx_enc=info%3Aofi%2Fenc%3AUTF-8&rfr_id=info%3Asid%2Fsummon.serialssolutions.com&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.atitle=Depression+and+Anxiety+Stigma%2C+Shame%2C+and+Communication+About+Mental+Health+Among+College+Students%3A+Implications+for+Communication+with+Students&rft.jtitle=The+College+student+affairs+journal&rft.au=Carmack%2C+Heather+J&rft.au=Nelson%2C+C.+Leigh&rft.au=Hocke-Mirzashvili%2C+Tatjana+M&rft.au=Fife%2C+Eric+M&rft.date=2018&rft.pub=Southern+Association+for+College+Student+Affairs&rft.issn=0888-210X&rft.eissn=2381-2338&rft.volume=36&rft.issue=1&rft.spage=68&rft.epage=79&rft_id=info:doi/10.1353%2Fcsj.2018.0004&rft.externalDocID=690585_S2381233818100043&paramdict=en-US" class="card-link" target="_blank">Link to article</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Mental Health and College Students: A Conversation about college students and mental health.</h5>
+                <h6 class="card-subtitle mb-2 text-muted">December 9, 2015 - Gregg Henriques Ph.D. (Licensed Clinical Psychologist)</h6>
+                <p class="card-text">“When I was in college in the late 1980s, about 10 to 15% of the kids would have been struggling with what I would call clinically significant mental health problems. Now that figure is more like 30 to 35%. Something like a three hundred percent increase”</p>
+                <a href="https://www.psychologytoday.com/us/blog/theory-knowledge/201512/mental-health-and-college-students-conversation" class="card-link" target="_blank">Link to article</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="change_first_text()">Quote 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="change_second_text()">Quote 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="change_third_text()">Quote 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="change_fourth_text()">Quote 4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Quotes from Sara Labelle & Zac. D Johnson study</h5>
+                <p class="card-text" id="main-card-text">'One out of four students report experiencing anxiety that negatively impacted their performance in a class in the last 12 months (Sara LaBelle).'</p>
+                <a href="https://www-tandfonline-com.wv-o-ursus-proxy02.ursus.maine.edu/doi/full/10.1080/01463373.2021.1887310" class="btn btn-primary">Link to article</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="change_first_big_text()">Quote 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="change_second_big_text()">Quote 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="change_third_big_text()">Quote 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="change_fourth_big_text()">Quote 4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Quotes from John Ross study</h5>
+                <p class="card-text" id="main-bigcard-text">'A survey of 1,000 Australian students has revealed divided views about university communications, with some worried they are being kept in the dark while others complain of information overload. (John Ross).'</p>
+                <a href="https://www.timeshighereducation.com/news/universities-getting-it-wrong-student-communication" class="btn btn-primary">Link to article</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    function change_first_text(){
+        document.getElementById("main-card-text").innerHTML = "'One out of four students report experiencing anxiety that negatively impacted their performance in a class in the last 12 months”(Sara LaBelle).'";
+    }
+    function change_second_text(){
+        document.getElementById("main-card-text").innerHTML = "'Nearly 85% of college students’ academics caused them moderate to high distress in the past 12 months (American College Health Association, 2019) (Sara LaBelle)'";
+    }
+    function change_third_text(){
+        document.getElementById("main-card-text").innerHTML = "'Students with mental health issues have lower self-efficacy related to their coursework, less motivation, and increased doubts about whether higher education is worth their time, money, and effort (Lipson & Eisenberg, 2018).(Sara LaBelle)'";
+    }
+    function change_fourth_text(){
+        document.getElementById("main-card-text").innerHTML = "'Students who screen positive for depression and anxiety are nearly two times more likely to be dissatisfied with their academic experience (Lipson & Eisenberg, 2018) and are less likely to participate in class (Carton & Goodboy, 2015). (Sara LaBelle)'";
+    }
+    function change_first_big_text(){
+        document.getElementById("main-bigcard-text").innerHTML = "'A survey of 1,000 Australian students has revealed divided views about university communications, with some worried they are being kept in the dark while others complain of information overload. (John Ross).'";
+    }
+    function change_second_big_text(){
+        document.getElementById("main-bigcard-text").innerHTML = "'Just 47 per cent of the respondents agreed that missives from their universities told them what they needed to know. Almost two in five answered: “I read it because I have to, but it could be better. (John Ross).";
+    }
+    function change_third_big_text(){
+        document.getElementById("main-bigcard-text").innerHTML = "'Another 14 percent said they never read information from their universities, mostly because it lacked relevance or “doesn’t offer me anything of value”. Others complained that the official messages were too long, too formal, too frequent or too late. (John Ross).'";
+    }
+    function change_fourth_big_text(){
+        document.getElementById("main-bigcard-text").innerHTML = "'Among the respondents who said they never read university messages, most nominated email as the best mode of communication. Some preferred texts or social messaging, but almost none chose phone calls or traditional mail. (John Ross)'";
+    }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
